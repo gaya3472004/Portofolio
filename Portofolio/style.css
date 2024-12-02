@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #070404;
+}
+
+.w3-container {
+    margin-bottom: 20px;
+    
+}
+
+/* Sidebar Styling */
+.w3-sidebar {
+    background-color: #111;
+    color: #fff;
+}
+
+.w3-bar-item {
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.w3-bar-item:hover {
+    background-color: #0c0808;
+    cursor: pointer;
+}
+
+/* Header Styling */
+#header {
+    background-color: #07080a;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+#header img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Me Section */
+#about {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+#skills {
+    background-color: #030202;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    margin: 5px 0;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.w3-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.w3-card:hover {
+    transform: scale(1.05);
+}
+
+.w3-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Achievements Section */
+#achievements {
+    background-color: #0c0a0a;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #0a0808;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact a {
+    color: #fcfdff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styling */
+.w3-button {
+    border-radius: 5px;
+}
+
+.w3-button.w3-light-grey {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
+
+.w3-button.w3-light-grey:hover {
+    background-color: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .w3-sidebar {
+        width: 100%;
+        position: relative;
+    }
+
+    .w3-container {
+        margin-left: 0;
+        
+    }
+}
