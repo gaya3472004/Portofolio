@@ -1,5 +1,5 @@
 # Portofolio
 My Portofolio
+This repository contains the source code and assets for my personal portfolio website. The portfolio showcases my skills, projects, and achievements, serving as a platform to demonstrate my technical expertise and creative abilities. 
 
-![image](https://github.com/user-attachments/assets/c027278d-8952-4782-ba29-0a0e18f53eaf)
 
